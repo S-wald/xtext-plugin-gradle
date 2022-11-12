@@ -8,8 +8,4 @@
 	</parent>
 	<artifactId>org.xtext.example.mydsl.target</artifactId>
 	<packaging>eclipse-target-definition</packaging>
-
-
-	<dependencies>
-	</dependencies>
 </project>
