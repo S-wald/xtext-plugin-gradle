@@ -4,6 +4,7 @@ bin/
 src-gen/
 .settings/
 xtend-gen/
+ecore-gen/
 .gradle/
 **/gradle/wrapper/
 target/

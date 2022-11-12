@@ -1,0 +1,22 @@
+module org.xtext.example.mydsl.GenerateMyDsl
+
+import org.eclipse.emf.mwe.utils.*
+import org.eclipse.xtext.xtext.generator.*
+import org.eclipse.xtext.xtext.generator.model.project.*
+
+
+Workflow {
+	bean = org.eclipse.emf.mwe.utils.StandaloneSetup {
+    	platformUri=".."
+	}
+	component = org.eclipse.emf.mwe.utils.DirectoryCleaner {
+    	directory ="ecore-gen"
+	}
+
+	component = org.eclipse.emf.mwe2.ecore.EcoreGenerator {
+    	generateCustomClasses = false
+    	genModel = "platform:/resource/org.xtext.example.mydsl/model/MyDsl.genmodel"
+    	srcPath = "platform:/resource/org.xtext.example.mydsl/ecore-gen" 
+	}
+	
+}
