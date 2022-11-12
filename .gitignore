@@ -1,0 +1,11 @@
+.metadata
+.project
+bin/
+src-gen/
+.settings/
+xtend-gen/
+.gradle/
+**/gradle/wrapper/
+target/
+generated/
+build/
