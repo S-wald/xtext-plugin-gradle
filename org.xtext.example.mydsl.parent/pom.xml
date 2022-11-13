@@ -21,6 +21,7 @@
 		<additionalTestArguments></additionalTestArguments>
 	</properties>
 	<modules>
+		<module>org.xtext.example.mydsl.library</module>
 		<module>org.xtext.example.mydsl</module>
 		<module>org.xtext.example.mydsl.ide</module>
 		<module>org.xtext.example.mydsl.ui</module>

@@ -7,4 +7,11 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>org.xtext.example.mydsl.library</artifactId>
+	<packaging>jar</packaging>
+	<properties>
+        <src.dir>src/</src.dir>
+    </properties>
+    <build>
+        <sourceDirectory>${src.dir}</sourceDirectory>
+    </build>
 </project>

@@ -30,4 +30,5 @@ Export-Package: org.xtext.example.mydsl.myDsl.util,
 Import-Package: org.apache.log4j,
  org.eclipse.xtext.ecore
 Bundle-Classpath: 
- lib/org.xtext.example.mydsl.library-1.0.0-SNAPSHOT.jar,.
+ lib/org.xtext.example.mydsl.library.jar,
+ .
